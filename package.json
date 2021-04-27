@@ -1,0 +1,22 @@
+{
+  "name": "test-threejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "deploy": "ghpages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuchakreeS/test-threejs.git"
+  },
+  "author": "maxolib",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SuchakreeS/test-threejs/issues"
+  },
+  "homepage": "https://SuchakreeS.github.io/test-threejs",
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
