@@ -1,10 +1,6 @@
 {
-  "name": "test-threejs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/main.js",
   "scripts": {
-    "deploy": "ghpages -d src"
+    "deploy": "gh-pages -d src"
   },
   "repository": {
     "type": "git",
@@ -15,8 +11,11 @@
   "bugs": {
     "url": "https://github.com/SuchakreeS/test-threejs/issues"
   },
-  "homepage": "https://SuchakreeS.github.io/test-threejs",
-  "devDependencies": {
-    "gh-pages": "^3.1.0"
+  "homepage": "https://suchakrees.github.io/test-threejs/",
+  "dependencies": {
+    "dat.gui": "^0.7.7",
+    "fs": "^0.0.1-security",
+    "gh-pages": "^3.1.0",
+    "three": "^0.128.0"
   }
 }
