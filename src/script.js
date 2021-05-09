@@ -30,7 +30,7 @@ const scene = new THREE.Scene()
 const cube = new THREE.Mesh(
     new THREE.BoxGeometry(1, 1, 1),
     new THREE.MeshStandardMaterial({
-        color: 0x006611
+        color: 0x0066ff
     })
 )
 gui.add(cube.material, 'wireframe')
@@ -46,7 +46,7 @@ directionalLight.castShadow = true
 directionalLight.shadow.mapSize.set(1024, 1024)
 directionalLight.shadow.camera.far = 15
 directionalLight.shadow.normalBias = 0.05
-directionalLight.position.set(0.25, 3, - 2.25)
+directionalLight.position.set(1, 3, 3)
 scene.add(directionalLight)
 
 /**
