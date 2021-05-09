@@ -7,10 +7,10 @@
 html,
 body
 {
-    height: 100vh;
+    overflow: hidden;
 }
 
-.myworld
+.webgl
 {
     position: fixed;
     top: 0;
