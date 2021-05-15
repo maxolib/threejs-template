@@ -4,7 +4,7 @@
 1. Download [Node.js](https://nodejs.org/en/download/) and install `Node.js`.
 2. Run the command below in your terminal.
     ``` bash
-    # Install dependencies (only the first time)
+    # Install dependencies
     npm install
     ```
 ---
